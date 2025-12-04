@@ -22,7 +22,7 @@ const AddTechnology = ({ onSuccess }) => {
             setError(null);
             setTimeout(() => {
                 if (onNavigate) {
-                    onNavigate(1); // Переход на вкладку "Технологии"
+                    onNavigate(1);
                 } else {
                     navigate('/technologies');
                 }
